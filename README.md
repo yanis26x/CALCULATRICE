@@ -1,1 +1,1 @@
-# Fuck la calculatrice windows, utulisez la mienne
+# Fuck la calculatrice windows, utilisez la mienne

@@ -1,0 +1,96 @@
+﻿<Window x:Class="Calculatrice_cool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculatrice_cool"
+        mc:Ignorable="d"
+        Title="CALCULATRICE GORE 26x" Height="583" Width="488">
+    <Window.Background>
+        <ImageBrush ImageSource="/sangPNG.png"/>
+    </Window.Background>
+    <Grid>
+        <TextBox x:Name="screen" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" Height="106" FontSize="36" FontWeight="Bold" Background="Black" Foreground="Red"/>
+        <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btn7_Click" Foreground="Red" Background="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="130,131,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btn8_Click" Foreground="Red" Background="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn9" Content="9" HorizontalAlignment="Left" Margin="247,131,0,0" VerticalAlignment="Top" Height="62" Width="100" FontSize="24" FontWeight="Bold" Click="btn9_Click" Foreground="Red" Background="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="10,302,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btn1_Click" Foreground="Red" Background="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="130,302,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btn2_Click" Foreground="Red" Background="Black" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="247,302,0,0" VerticalAlignment="Top" Height="62" Width="100" FontSize="24" FontWeight="Bold" Click="btn3_Click" Foreground="Red" Background="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btn4_Click" Foreground="Red" Background="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="130,217,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btn5_Click" Foreground="Red" Background="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Margin="247,217,0,0" VerticalAlignment="Top" Height="62" Width="100" FontSize="24" FontWeight="Bold" Click="btn6_Click" Foreground="Red" Background="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn0" Content="0" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btn0_Click" Foreground="Red" Background="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnPlus" Content="+" HorizontalAlignment="Left" Margin="360,380,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btnPlus_Click" Background="#FFFF0505">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnDiv" Content="/" HorizontalAlignment="Left" Margin="360,131,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btnDiv_Click" Background="#FFFF0505">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnMinus" Content="-" HorizontalAlignment="Left" Margin="360,302,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btnMinus_Click" Background="#FFFF0505">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnMulti" Content="*" HorizontalAlignment="Left" Margin="360,218,0,0" VerticalAlignment="Top" Height="62" Width="99" FontSize="24" FontWeight="Bold" Click="btnMulti_Click" Background="#FFFF0505">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnEgal" Content="=" HorizontalAlignment="Left" Margin="130,380,0,0" VerticalAlignment="Top" Height="62" Width="100" FontSize="24" FontWeight="Bold" Click="btnEgal_Click" Background="#FFFF0505">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnClear" Content="CLEAR" HorizontalAlignment="Left" Margin="247,380,0,0" VerticalAlignment="Top" Height="62" Width="100" FontSize="24" FontWeight="Bold" Click="btnClear_Click" Background="#FFFF0505">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="29,469,0,0" TextWrapping="Wrap" Text="Salut ! -26x" VerticalAlignment="Top" Height="75" Width="401" FontSize="48" FontWeight="Bold" FontStyle="Italic" Foreground="#FFFF00F5"/>
+    </Grid>
+</Window>

@@ -11,9 +11,6 @@
 2. **Ouvre le projet dans Visual Studio**
 3. **Compile et exécute !**
 
-## Bug, proposition et aide
-Si ta trouver un bug ou ta besoin d'aide pour installer, ecrit moi sur ????
-
 ## Améliorations et aide
 Si ta trouvé un bug, besoin d'aide pour l'installation, ou une idée de nouvelle fonctionnalité, écris-moi sur ????
 

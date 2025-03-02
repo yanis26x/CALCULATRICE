@@ -1,1 +1,1 @@
-# Calculatrice_cool
+# Fuck la calculatrice windows, utilisez la mienne

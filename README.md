@@ -1,8 +1,6 @@
 # Fuck la calculatrice windows, utilisez la mienne
-## 📸 Aperçu
 
 ![Aperçu de la calculatrice](images/Screenshot_calculatrice.png)
-
 
 
 ## Installation
@@ -16,10 +14,11 @@
 ## Bug, proposition et aide
 Si ta trouver un bug ou ta besoin d'aide pour installer, ecrit moi sur ????
 
-## PLUS DE FONCTIONNALITER A VENIR, RESTEZ BRANCHER !
-Je suis ouvert a toute proposition, si ta une idee, dit le moi! 
+## Améliorations et aide
+Si ta trouvé un bug, besoin d'aide pour l'installation, ou une idée de nouvelle fonctionnalité, écris-moi sur ????
 
+## PLUS DE FONCTIONNALITES A VENIR, RESTEZ BRANCHES !
 
-## Avec
+## Fait avec
 - **C#** (WPF)
 - **.NET Framework**
